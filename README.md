@@ -19,5 +19,7 @@ first of all you need to build the solution. please do below steps for project c
 7) run "mvn test" command
 8) it will start executing all the test cases
 9) to make changes in test execution, use testng.xml to modify the execution classes.
+10) if you want to edit the test data, edit the testdata.xlsx for the same. it is in root folder
+11) you can also setup the execution in headless mode. change the setting in config.properties for the same
 
 please feel free to contact me if you are facing any dificulty while executing or for code walkthrough.
