@@ -1,0 +1,92 @@
+[INFO: 2021-05-22 00:29:44 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:29:45 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:45 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:45 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:45 (TC002.java:30)] Executing Iteation :1/5
+[INFO: 2021-05-22 00:29:47 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:29:47 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:29:48 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:29:48 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:29:48 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:29:48 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:29:48 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:29:48 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:29:50 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:29:50 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:29:50 (Contact.java:84)] message:Thanks Vaibhav, we appreciate your feedback.
+[INFO: 2021-05-22 00:29:50 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:29:50 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:50 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:29:50 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:50 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:50 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:50 (TC002.java:30)] Executing Iteation :2/5
+[INFO: 2021-05-22 00:29:51 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:29:51 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:29:51 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:29:51 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:29:51 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:29:51 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:29:51 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:29:51 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:29:56 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:29:56 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:29:56 (Contact.java:84)] message:Thanks Jay, we appreciate your feedback.
+[INFO: 2021-05-22 00:29:56 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:29:56 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:56 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:29:56 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:56 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:56 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:56 (TC002.java:30)] Executing Iteation :3/5
+[INFO: 2021-05-22 00:29:56 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:29:56 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:29:57 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:29:57 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:29:57 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:29:57 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:29:57 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:29:57 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:29:59 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:29:59 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:29:59 (Contact.java:84)] message:Thanks Sniti, we appreciate your feedback.
+[INFO: 2021-05-22 00:29:59 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:29:59 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:59 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:29:59 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:59 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:29:59 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:29:59 (TC002.java:30)] Executing Iteation :4/5
+[INFO: 2021-05-22 00:29:59 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:29:59 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:29:59 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:30:00 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:30:00 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:30:00 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:30:00 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:30:00 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:30:04 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:30:04 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:30:04 (Contact.java:84)] message:Thanks Amruta, we appreciate your feedback.
+[INFO: 2021-05-22 00:30:04 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:30:04 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:30:04 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:30:04 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:30:04 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:30:04 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:30:04 (TC002.java:30)] Executing Iteation :5/5
+[INFO: 2021-05-22 00:30:04 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:30:05 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:30:05 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:30:05 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:30:05 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:30:05 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:30:05 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:30:05 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:30:08 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:30:08 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:30:08 (Contact.java:84)] message:Thanks Abir, we appreciate your feedback.
+[INFO: 2021-05-22 00:30:08 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:30:08 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:30:08 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:30:08 (InitializeDriver.java:53)] Driver closed Successfully

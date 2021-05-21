@@ -1,0 +1,101 @@
+
+C:\Users\vaibh\OneDrive\Documents\GitHub\Planit>mvn test
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for Planit:exercise:jar:V1.0
+[WARNING] 'dependencies.dependency.version' for org.testng:testng:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 54, column 22
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.testng:testng:jar -> version 7.4.0 vs RELEASE @ line 51, column 21
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] --------------------------< Planit:exercise >---------------------------
+[INFO] Building Planit V1.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ exercise ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ exercise ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ exercise ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ exercise ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ exercise ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 11080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621614821.702][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 22, 2021 12:33:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[INFO: 2021-05-22 00:33:42 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:33:42 (TC004.java:31)] #############################################START#############################################
+[INFO: 2021-05-22 00:33:42 (TC004.java:32)] ################# Verify Price,SubTotal and GrandTotal of selected Items ######################
+[INFO: 2021-05-22 00:33:42 (TC004.java:33)] #############################################START#############################################
+[INFO: 2021-05-22 00:33:42 (TC004.java:35)] Executing Iteation :1/1
+[INFO: 2021-05-22 00:33:45 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+data:{item2=Fluffy Bunny=5, item1=Stuffed Frog=2, item3=Valentine Bear=3}
+Executing Test
+[INFO: 2021-05-22 00:33:45 (BaseUtil.java:19)] Clicked on Shop
+[INFO: 2021-05-22 00:33:45 (ShopPage.java:47)] Buying for Product: Stuffed Frog: and quantity: 2
+[INFO: 2021-05-22 00:33:45 (ShopPage.java:47)] Buying for Product: Fluffy Bunny: and quantity: 5
+[INFO: 2021-05-22 00:33:46 (ShopPage.java:47)] Buying for Product: Valentine Bear: and quantity: 3
+[INFO: 2021-05-22 00:33:46 (ShopPage.java:61)] Added Items are matching in the cart count link
+[INFO: 2021-05-22 00:33:46 (BaseUtil.java:19)] Clicked on Cart (10)
+[INFO: 2021-05-22 00:33:47 (Cart.java:33)] Verifying the product Details for Product: Stuffed Frog: and quantity: 2
+[INFO: 2021-05-22 00:33:47 (Cart.java:35)] Actul Product: Stuffed Frog and Given Product: Stuffed Frog are Matching.
+[INFO: 2021-05-22 00:33:47 (Cart.java:36)] Actul Product Quantity: 2 and Given Quality: 2 are Matching
+[INFO: 2021-05-22 00:33:47 (Cart.java:33)] Verifying the product Details for Product: Fluffy Bunny: and quantity: 5
+[INFO: 2021-05-22 00:33:47 (Cart.java:35)] Actul Product: Fluffy Bunny and Given Product: Fluffy Bunny are Matching.
+[INFO: 2021-05-22 00:33:47 (Cart.java:36)] Actul Product Quantity: 5 and Given Quality: 5 are Matching
+[INFO: 2021-05-22 00:33:47 (Cart.java:33)] Verifying the product Details for Product: Valentine Bear: and quantity: 3
+[INFO: 2021-05-22 00:33:47 (Cart.java:35)] Actul Product: Valentine Bear and Given Product: Valentine Bear are Matching.
+[INFO: 2021-05-22 00:33:47 (Cart.java:36)] Actul Product Quantity: 3 and Given Quality: 3 are Matching
+[INFO: 2021-05-22 00:33:47 (Cart.java:44)] All Records are verified and all are correct
+[INFO: 2021-05-22 00:33:47 (Cart.java:57)] Verifying price for product: Stuffed Frog
+[INFO: 2021-05-22 00:33:47 (Cart.java:59)] Prices on Shopping page: 10.99 and Shopping Cart: 10.99 are Same
+[INFO: 2021-05-22 00:33:47 (Cart.java:57)] Verifying price for product: Fluffy Bunny
+[INFO: 2021-05-22 00:33:47 (Cart.java:59)] Prices on Shopping page: 9.99 and Shopping Cart: 9.99 are Same
+[INFO: 2021-05-22 00:33:47 (Cart.java:57)] Verifying price for product: Valentine Bear
+[INFO: 2021-05-22 00:33:47 (Cart.java:59)] Prices on Shopping page: 14.99 and Shopping Cart: 14.99 are Same
+[INFO: 2021-05-22 00:33:47 (Cart.java:68)] Prices are matching for all selected items in the cart
+[INFO: 2021-05-22 00:33:48 (Cart.java:82)] Verifying SubTotal for product: Stuffed Frog
+[INFO: 2021-05-22 00:33:48 (Cart.java:89)] Calculated SubTotal of Product: 21.98 and Printed Subtotal on page: 21.98 are Same
+[INFO: 2021-05-22 00:33:48 (Cart.java:82)] Verifying SubTotal for product: Fluffy Bunny
+[INFO: 2021-05-22 00:33:48 (Cart.java:89)] Calculated SubTotal of Product: 49.95 and Printed Subtotal on page: 49.95 are Same
+[INFO: 2021-05-22 00:33:48 (Cart.java:82)] Verifying SubTotal for product: Valentine Bear
+[INFO: 2021-05-22 00:33:48 (Cart.java:89)] Calculated SubTotal of Product: 44.97 and Printed Subtotal on page: 44.97 are Same
+[INFO: 2021-05-22 00:33:48 (Cart.java:97)] SubTotal are matching for all selected items in the cart
+[INFO: 2021-05-22 00:33:48 (Cart.java:109)] Calculated Sum of SubTotal:116.9 and Grand Total on Cart page: 116.9 are Same
+[INFO: 2021-05-22 00:33:48 (TC004.java:55)] #############################################END###############################################
+[INFO: 2021-05-22 00:33:48 (TC004.java:56)] ################# Verify Price,SubTotal and GrandTotal of selected Items ######################
+[INFO: 2021-05-22 00:33:48 (TC004.java:57)] #############################################END###############################################
+[INFO: 2021-05-22 00:33:48 (InitializeDriver.java:53)] Driver closed Successfully
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.739 s - in TestSuite
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.493 s
+[INFO] Finished at: 2021-05-22T00:33:49+08:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\vaibh\OneDrive\Documents\GitHub\Planit>

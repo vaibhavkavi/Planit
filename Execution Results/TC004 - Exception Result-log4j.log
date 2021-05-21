@@ -1,0 +1,41 @@
+[INFO: 2021-05-22 00:33:42 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:33:42 (TC004.java:31)] #############################################START#############################################
+[INFO: 2021-05-22 00:33:42 (TC004.java:32)] ################# Verify Price,SubTotal and GrandTotal of selected Items ######################
+[INFO: 2021-05-22 00:33:42 (TC004.java:33)] #############################################START#############################################
+[INFO: 2021-05-22 00:33:42 (TC004.java:35)] Executing Iteation :1/1
+[INFO: 2021-05-22 00:33:45 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:33:45 (BaseUtil.java:19)] Clicked on Shop
+[INFO: 2021-05-22 00:33:45 (ShopPage.java:47)] Buying for Product: Stuffed Frog: and quantity: 2
+[INFO: 2021-05-22 00:33:45 (ShopPage.java:47)] Buying for Product: Fluffy Bunny: and quantity: 5
+[INFO: 2021-05-22 00:33:46 (ShopPage.java:47)] Buying for Product: Valentine Bear: and quantity: 3
+[INFO: 2021-05-22 00:33:46 (ShopPage.java:61)] Added Items are matching in the cart count link
+[INFO: 2021-05-22 00:33:46 (BaseUtil.java:19)] Clicked on Cart (10)
+[INFO: 2021-05-22 00:33:47 (Cart.java:33)] Verifying the product Details for Product: Stuffed Frog: and quantity: 2
+[INFO: 2021-05-22 00:33:47 (Cart.java:35)] Actul Product: Stuffed Frog and Given Product: Stuffed Frog are Matching. 
+[INFO: 2021-05-22 00:33:47 (Cart.java:36)] Actul Product Quantity: 2 and Given Quality: 2 are Matching 
+[INFO: 2021-05-22 00:33:47 (Cart.java:33)] Verifying the product Details for Product: Fluffy Bunny: and quantity: 5
+[INFO: 2021-05-22 00:33:47 (Cart.java:35)] Actul Product: Fluffy Bunny and Given Product: Fluffy Bunny are Matching. 
+[INFO: 2021-05-22 00:33:47 (Cart.java:36)] Actul Product Quantity: 5 and Given Quality: 5 are Matching 
+[INFO: 2021-05-22 00:33:47 (Cart.java:33)] Verifying the product Details for Product: Valentine Bear: and quantity: 3
+[INFO: 2021-05-22 00:33:47 (Cart.java:35)] Actul Product: Valentine Bear and Given Product: Valentine Bear are Matching. 
+[INFO: 2021-05-22 00:33:47 (Cart.java:36)] Actul Product Quantity: 3 and Given Quality: 3 are Matching 
+[INFO: 2021-05-22 00:33:47 (Cart.java:44)] All Records are verified and all are correct
+[INFO: 2021-05-22 00:33:47 (Cart.java:57)] Verifying price for product: Stuffed Frog
+[INFO: 2021-05-22 00:33:47 (Cart.java:59)] Prices on Shopping page: 10.99 and Shopping Cart: 10.99 are Same
+[INFO: 2021-05-22 00:33:47 (Cart.java:57)] Verifying price for product: Fluffy Bunny
+[INFO: 2021-05-22 00:33:47 (Cart.java:59)] Prices on Shopping page: 9.99 and Shopping Cart: 9.99 are Same
+[INFO: 2021-05-22 00:33:47 (Cart.java:57)] Verifying price for product: Valentine Bear
+[INFO: 2021-05-22 00:33:47 (Cart.java:59)] Prices on Shopping page: 14.99 and Shopping Cart: 14.99 are Same
+[INFO: 2021-05-22 00:33:47 (Cart.java:68)] Prices are matching for all selected items in the cart
+[INFO: 2021-05-22 00:33:48 (Cart.java:82)] Verifying SubTotal for product: Stuffed Frog
+[INFO: 2021-05-22 00:33:48 (Cart.java:89)] Calculated SubTotal of Product: 21.98 and Printed Subtotal on page: 21.98 are Same
+[INFO: 2021-05-22 00:33:48 (Cart.java:82)] Verifying SubTotal for product: Fluffy Bunny
+[INFO: 2021-05-22 00:33:48 (Cart.java:89)] Calculated SubTotal of Product: 49.95 and Printed Subtotal on page: 49.95 are Same
+[INFO: 2021-05-22 00:33:48 (Cart.java:82)] Verifying SubTotal for product: Valentine Bear
+[INFO: 2021-05-22 00:33:48 (Cart.java:89)] Calculated SubTotal of Product: 44.97 and Printed Subtotal on page: 44.97 are Same
+[INFO: 2021-05-22 00:33:48 (Cart.java:97)] SubTotal are matching for all selected items in the cart
+[INFO: 2021-05-22 00:33:48 (Cart.java:109)] Calculated Sum of SubTotal:116.9 and Grand Total on Cart page: 116.9 are Same
+[INFO: 2021-05-22 00:33:48 (TC004.java:55)] #############################################END###############################################
+[INFO: 2021-05-22 00:33:48 (TC004.java:56)] ################# Verify Price,SubTotal and GrandTotal of selected Items ######################
+[INFO: 2021-05-22 00:33:48 (TC004.java:57)] #############################################END###############################################
+[INFO: 2021-05-22 00:33:48 (InitializeDriver.java:53)] Driver closed Successfully

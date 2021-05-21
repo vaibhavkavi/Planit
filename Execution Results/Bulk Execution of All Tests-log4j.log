@@ -1,0 +1,180 @@
+[INFO: 2021-05-22 00:35:16 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:35:17 (TC001.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:35:17 (TC001.java:27)] ########################### Verify the valid errors on contact page ###########################
+[INFO: 2021-05-22 00:35:17 (TC001.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:35:17 (TC001.java:30)] Executing Iteation :1/1
+[INFO: 2021-05-22 00:35:19 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:35:19 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:35:19 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:35:19 (Contact.java:36)] Validating the required manadatory validation errors..
+[INFO: 2021-05-22 00:35:25 (ContactPage.java:123)] Telephone Error is not displayed
+[INFO: 2021-05-22 00:35:25 (Contact.java:41)] Excepected error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]
+[INFO: 2021-05-22 00:35:25 (Contact.java:43)] Actual error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]
+[INFO: 2021-05-22 00:35:25 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:35:25 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:35:25 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:35:25 (Contact.java:50)] Validating the required manadatory validation are not displayed any more..
+[INFO: 2021-05-22 00:35:30 (ContactPage.java:113)] forname Error is not displayed
+[INFO: 2021-05-22 00:35:35 (ContactPage.java:118)] Email Error is not displayed
+[INFO: 2021-05-22 00:35:41 (ContactPage.java:123)] Telephone Error is not displayed
+[INFO: 2021-05-22 00:35:46 (ContactPage.java:128)] Message Error is not displayed
+[INFO: 2021-05-22 00:35:46 (Contact.java:53)] No Errors Displayed
+[INFO: 2021-05-22 00:35:46 (TC001.java:41)] #############################################END###############################################
+[INFO: 2021-05-22 00:35:46 (TC001.java:42)] ########################### Verify the valid errors on contact page ###########################
+[INFO: 2021-05-22 00:35:46 (TC001.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:35:46 (InitializeDriver.java:53)] Driver closed Successfully
+[INFO: 2021-05-22 00:35:47 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:35:47 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:35:47 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:35:47 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:35:47 (TC002.java:30)] Executing Iteation :1/5
+[INFO: 2021-05-22 00:35:50 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:35:50 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:35:50 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:35:50 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:35:51 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:35:51 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:35:51 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:35:51 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:35:55 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:35:55 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:35:55 (Contact.java:84)] message:Thanks Vaibhav, we appreciate your feedback.
+[INFO: 2021-05-22 00:35:55 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:35:55 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:35:55 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:35:55 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:35:55 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:35:55 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:35:55 (TC002.java:30)] Executing Iteation :2/5
+[INFO: 2021-05-22 00:35:55 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:35:55 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:35:56 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:35:56 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:35:56 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:35:56 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:35:56 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:35:56 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:36:00 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:36:00 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:36:00 (Contact.java:84)] message:Thanks Jay, we appreciate your feedback.
+[INFO: 2021-05-22 00:36:00 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:00 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:00 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:00 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:00 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:00 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:00 (TC002.java:30)] Executing Iteation :3/5
+[INFO: 2021-05-22 00:36:00 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:36:00 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:36:00 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:36:01 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:36:01 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:36:01 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:36:01 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:36:01 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:36:03 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:36:03 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:36:03 (Contact.java:84)] message:Thanks Sniti, we appreciate your feedback.
+[INFO: 2021-05-22 00:36:03 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:03 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:03 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:03 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:03 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:03 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:03 (TC002.java:30)] Executing Iteation :4/5
+[INFO: 2021-05-22 00:36:03 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:36:03 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:36:04 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:36:04 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:36:04 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:36:04 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:36:04 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:36:04 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:36:08 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:36:08 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:36:08 (Contact.java:84)] message:Thanks Amruta, we appreciate your feedback.
+[INFO: 2021-05-22 00:36:08 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:08 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:08 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:08 (TC002.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:08 (TC002.java:27)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:08 (TC002.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:08 (TC002.java:30)] Executing Iteation :5/5
+[INFO: 2021-05-22 00:36:08 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:36:08 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:36:08 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:36:09 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:36:09 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:36:09 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:36:09 (ContactPage.java:138)] modal dialog is present 
+[INFO: 2021-05-22 00:36:09 (ContactPage.java:140)] Wait for modal dialog to disappear 
+[INFO: 2021-05-22 00:36:16 (ContactPage.java:148)] modal dialog disappeared 
+[INFO: 2021-05-22 00:36:16 (ContactPage.java:97)] getting message
+[INFO: 2021-05-22 00:36:16 (Contact.java:84)] message:Thanks Abir, we appreciate your feedback.
+[INFO: 2021-05-22 00:36:16 (TC002.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:16 (TC002.java:44)] #################### Verify successful form submission with mandatory fields ##################
+[INFO: 2021-05-22 00:36:16 (TC002.java:45)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:16 (InitializeDriver.java:53)] Driver closed Successfully
+[INFO: 2021-05-22 00:36:17 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:36:17 (TC003.java:31)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:17 (TC003.java:32)] ################# Verify the selected items on shopping page on the cart ######################
+[INFO: 2021-05-22 00:36:17 (TC003.java:33)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:17 (TC003.java:35)] Executing Iteation :1/1
+[INFO: 2021-05-22 00:36:20 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:36:20 (BaseUtil.java:19)] Clicked on Shop
+[INFO: 2021-05-22 00:36:20 (ShopPage.java:47)] Buying for Product: Funny Cow: and quantity: 2
+[INFO: 2021-05-22 00:36:20 (ShopPage.java:47)] Buying for Product: Fluffy Bunny: and quantity: 1
+[INFO: 2021-05-22 00:36:21 (ShopPage.java:61)] Added Items are matching in the cart count link
+[INFO: 2021-05-22 00:36:21 (BaseUtil.java:19)] Clicked on Cart (3)
+[INFO: 2021-05-22 00:36:21 (Cart.java:33)] Verifying the product Details for Product: Funny Cow: and quantity: 2
+[INFO: 2021-05-22 00:36:21 (Cart.java:35)] Actul Product: Funny Cow and Given Product: Funny Cow are Matching. 
+[INFO: 2021-05-22 00:36:21 (Cart.java:36)] Actul Product Quantity: 2 and Given Quality: 2 are Matching 
+[INFO: 2021-05-22 00:36:21 (Cart.java:33)] Verifying the product Details for Product: Fluffy Bunny: and quantity: 1
+[INFO: 2021-05-22 00:36:21 (Cart.java:35)] Actul Product: Fluffy Bunny and Given Product: Fluffy Bunny are Matching. 
+[INFO: 2021-05-22 00:36:21 (Cart.java:36)] Actul Product Quantity: 1 and Given Quality: 1 are Matching 
+[INFO: 2021-05-22 00:36:21 (Cart.java:44)] All Records are verified and all are correct
+[INFO: 2021-05-22 00:36:21 (TC003.java:52)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:21 (TC003.java:53)] ################# Verify the selected items on shopping page on the cart ######################
+[INFO: 2021-05-22 00:36:21 (TC003.java:54)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:21 (InitializeDriver.java:53)] Driver closed Successfully
+[INFO: 2021-05-22 00:36:23 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:36:23 (TC004.java:31)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:23 (TC004.java:32)] ################# Verify Price,SubTotal and GrandTotal of selected Items ######################
+[INFO: 2021-05-22 00:36:23 (TC004.java:33)] #############################################START#############################################
+[INFO: 2021-05-22 00:36:23 (TC004.java:35)] Executing Iteation :1/1
+[INFO: 2021-05-22 00:36:25 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:36:25 (BaseUtil.java:19)] Clicked on Shop
+[INFO: 2021-05-22 00:36:25 (ShopPage.java:47)] Buying for Product: Stuffed Frog: and quantity: 2
+[INFO: 2021-05-22 00:36:26 (ShopPage.java:47)] Buying for Product: Fluffy Bunny: and quantity: 5
+[INFO: 2021-05-22 00:36:26 (ShopPage.java:47)] Buying for Product: Valentine Bear: and quantity: 3
+[INFO: 2021-05-22 00:36:27 (ShopPage.java:61)] Added Items are matching in the cart count link
+[INFO: 2021-05-22 00:36:27 (BaseUtil.java:19)] Clicked on Cart (10)
+[INFO: 2021-05-22 00:36:27 (Cart.java:33)] Verifying the product Details for Product: Stuffed Frog: and quantity: 2
+[INFO: 2021-05-22 00:36:27 (Cart.java:35)] Actul Product: Stuffed Frog and Given Product: Stuffed Frog are Matching. 
+[INFO: 2021-05-22 00:36:27 (Cart.java:36)] Actul Product Quantity: 2 and Given Quality: 2 are Matching 
+[INFO: 2021-05-22 00:36:27 (Cart.java:33)] Verifying the product Details for Product: Fluffy Bunny: and quantity: 5
+[INFO: 2021-05-22 00:36:27 (Cart.java:35)] Actul Product: Fluffy Bunny and Given Product: Fluffy Bunny are Matching. 
+[INFO: 2021-05-22 00:36:27 (Cart.java:36)] Actul Product Quantity: 5 and Given Quality: 5 are Matching 
+[INFO: 2021-05-22 00:36:27 (Cart.java:33)] Verifying the product Details for Product: Valentine Bear: and quantity: 3
+[INFO: 2021-05-22 00:36:27 (Cart.java:35)] Actul Product: Valentine Bear and Given Product: Valentine Bear are Matching. 
+[INFO: 2021-05-22 00:36:27 (Cart.java:36)] Actul Product Quantity: 3 and Given Quality: 3 are Matching 
+[INFO: 2021-05-22 00:36:27 (Cart.java:44)] All Records are verified and all are correct
+[INFO: 2021-05-22 00:36:28 (Cart.java:57)] Verifying price for product: Stuffed Frog
+[INFO: 2021-05-22 00:36:28 (Cart.java:59)] Prices on Shopping page: 10.99 and Shopping Cart: 10.99 are Same
+[INFO: 2021-05-22 00:36:28 (Cart.java:57)] Verifying price for product: Fluffy Bunny
+[INFO: 2021-05-22 00:36:28 (Cart.java:59)] Prices on Shopping page: 9.99 and Shopping Cart: 9.99 are Same
+[INFO: 2021-05-22 00:36:28 (Cart.java:57)] Verifying price for product: Valentine Bear
+[INFO: 2021-05-22 00:36:28 (Cart.java:59)] Prices on Shopping page: 14.99 and Shopping Cart: 14.99 are Same
+[INFO: 2021-05-22 00:36:28 (Cart.java:68)] Prices are matching for all selected items in the cart
+[INFO: 2021-05-22 00:36:28 (Cart.java:82)] Verifying SubTotal for product: Stuffed Frog
+[INFO: 2021-05-22 00:36:28 (Cart.java:89)] Calculated SubTotal of Product: 21.98 and Printed Subtotal on page: 21.98 are Same
+[INFO: 2021-05-22 00:36:28 (Cart.java:82)] Verifying SubTotal for product: Fluffy Bunny
+[INFO: 2021-05-22 00:36:28 (Cart.java:89)] Calculated SubTotal of Product: 49.95 and Printed Subtotal on page: 49.95 are Same
+[INFO: 2021-05-22 00:36:28 (Cart.java:82)] Verifying SubTotal for product: Valentine Bear
+[INFO: 2021-05-22 00:36:28 (Cart.java:89)] Calculated SubTotal of Product: 44.97 and Printed Subtotal on page: 44.97 are Same
+[INFO: 2021-05-22 00:36:28 (Cart.java:97)] SubTotal are matching for all selected items in the cart
+[INFO: 2021-05-22 00:36:28 (Cart.java:109)] Calculated Sum of SubTotal:116.9 and Grand Total on Cart page: 116.9 are Same
+[INFO: 2021-05-22 00:36:28 (TC004.java:55)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:28 (TC004.java:56)] ################# Verify Price,SubTotal and GrandTotal of selected Items ######################
+[INFO: 2021-05-22 00:36:28 (TC004.java:57)] #############################################END###############################################
+[INFO: 2021-05-22 00:36:28 (InitializeDriver.java:53)] Driver closed Successfully

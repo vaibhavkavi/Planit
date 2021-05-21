@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[Excepected error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+    </line>
+    <line>
+      <![CDATA[Actual error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[No Errors Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog is present ]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog disappeared ]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog is present ]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog disappeared ]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog is present ]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog disappeared ]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog is present ]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog disappeared ]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog is present ]]>
+    </line>
+    <line>
+      <![CDATA[modal dialog disappeared ]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shop]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Cart (3)]]>
+    </line>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Shop]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Cart (10)]]>
+    </line>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="74990" started-at="2021-05-22T00:35:13 SGT" finished-at="2021-05-22T00:36:28 SGT">
+    <groups>
+    </groups>
+    <test name="Group of group Test" duration-ms="74990" started-at="2021-05-22T00:35:13 SGT" finished-at="2021-05-22T00:36:28 SGT">
+      <class name="com.planit.application.tests.TC003">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="beforeClass" is-config="true" duration-ms="1547" started-at="2021-05-22T00:36:16 SGT" finished-at="2021-05-22T00:36:17 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="testcase" duration-ms="3781" started-at="2021-05-22T00:36:17 SGT" data-provider="testData" finished-at="2021-05-22T00:36:21 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{item2=Fluffy Bunny=1, item1=Funny Cow=2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shop]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Cart (3)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="afterClass" is-config="true" duration-ms="117" started-at="2021-05-22T00:36:21 SGT" finished-at="2021-05-22T00:36:21 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.planit.application.tests.TC003 -->
+      <class name="com.planit.application.tests.TC004">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="beforeClass" is-config="true" duration-ms="1581" started-at="2021-05-22T00:36:21 SGT" finished-at="2021-05-22T00:36:23 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="testcase" duration-ms="5152" started-at="2021-05-22T00:36:23 SGT" data-provider="testData" finished-at="2021-05-22T00:36:28 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{item2=Fluffy Bunny=5, item1=Stuffed Frog=2, item3=Valentine Bear=3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Shop]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Cart (10)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="afterClass" is-config="true" duration-ms="203" started-at="2021-05-22T00:36:28 SGT" finished-at="2021-05-22T00:36:28 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.planit.application.tests.TC004 -->
+      <class name="com.planit.application.tests.TC001">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="beforeClass" is-config="true" duration-ms="2475" started-at="2021-05-22T00:35:13 SGT" finished-at="2021-05-22T00:35:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="testcase" duration-ms="28994" started-at="2021-05-22T00:35:17 SGT" data-provider="testData" finished-at="2021-05-22T00:35:46 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Vaibhav, message=this application is nice., email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[Excepected error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+            </line>
+            <line>
+              <![CDATA[Actual error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[No Errors Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="afterClass" is-config="true" duration-ms="217" started-at="2021-05-22T00:35:46 SGT" finished-at="2021-05-22T00:35:46 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.planit.application.tests.TC001 -->
+      <class name="com.planit.application.tests.TC002">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="beforeClass" is-config="true" duration-ms="1604" started-at="2021-05-22T00:35:46 SGT" finished-at="2021-05-22T00:35:47 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="7760" started-at="2021-05-22T00:35:47 SGT" data-provider="testData" finished-at="2021-05-22T00:35:55 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Vaibhav, message=Sending message 1, email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog is present ]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog disappeared ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="4750" started-at="2021-05-22T00:35:55 SGT" data-provider="testData" finished-at="2021-05-22T00:36:00 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Jay, message=Sending message 2, email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog is present ]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog disappeared ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="3195" started-at="2021-05-22T00:36:00 SGT" data-provider="testData" finished-at="2021-05-22T00:36:03 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Sniti, message=Sending message 3, email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog is present ]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog disappeared ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="4886" started-at="2021-05-22T00:36:03 SGT" data-provider="testData" finished-at="2021-05-22T00:36:08 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Amruta, message=Sending message 4, email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog is present ]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog disappeared ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="7453" started-at="2021-05-22T00:36:08 SGT" data-provider="testData" finished-at="2021-05-22T00:36:16 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Abir, message=Sending message 5, email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog is present ]]>
+            </line>
+            <line>
+              <![CDATA[modal dialog disappeared ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="afterClass" is-config="true" duration-ms="155" started-at="2021-05-22T00:36:16 SGT" finished-at="2021-05-22T00:36:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.planit.application.tests.TC002 -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+</testng-results>

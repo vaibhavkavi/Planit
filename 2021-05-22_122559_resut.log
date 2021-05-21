@@ -1,0 +1,25 @@
+[INFO: 2021-05-22 00:26:01 (InitializeDriver.java:32)] Chrome browser Launched Successfully
+[INFO: 2021-05-22 00:26:02 (TC001.java:26)] #############################################START#############################################
+[INFO: 2021-05-22 00:26:02 (TC001.java:27)] ########################### Verify the valid errors on contact page ###########################
+[INFO: 2021-05-22 00:26:02 (TC001.java:28)] #############################################START#############################################
+[INFO: 2021-05-22 00:26:02 (TC001.java:30)] Executing Iteation :1/1
+[INFO: 2021-05-22 00:26:05 (BaseTest.java:38)] Base Url: https://jupiter.cloud.planittesting.com launched Successfully
+[INFO: 2021-05-22 00:26:05 (BaseUtil.java:19)] Clicked on Contact
+[INFO: 2021-05-22 00:26:05 (BaseUtil.java:19)] Clicked on Submit
+[INFO: 2021-05-22 00:26:05 (Contact.java:36)] Validating the required manadatory validation errors..
+[INFO: 2021-05-22 00:26:11 (ContactPage.java:123)] Telephone Error is not displayed
+[INFO: 2021-05-22 00:26:11 (Contact.java:41)] Excepected error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]
+[INFO: 2021-05-22 00:26:11 (Contact.java:43)] Actual error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]
+[INFO: 2021-05-22 00:26:11 (BaseUtil.java:33)] Entered Data for forename
+[INFO: 2021-05-22 00:26:11 (BaseUtil.java:33)] Entered Data for email
+[INFO: 2021-05-22 00:26:11 (BaseUtil.java:33)] Entered Data for message
+[INFO: 2021-05-22 00:26:11 (Contact.java:50)] Validating the required manadatory validation are not displayed any more..
+[INFO: 2021-05-22 00:26:16 (ContactPage.java:113)] forname Error is not displayed
+[INFO: 2021-05-22 00:26:21 (ContactPage.java:118)] Email Error is not displayed
+[INFO: 2021-05-22 00:26:26 (ContactPage.java:123)] Telephone Error is not displayed
+[INFO: 2021-05-22 00:26:31 (ContactPage.java:128)] Message Error is not displayed
+[INFO: 2021-05-22 00:26:31 (Contact.java:53)] No Errors Displayed
+[INFO: 2021-05-22 00:26:31 (TC001.java:41)] #############################################END###############################################
+[INFO: 2021-05-22 00:26:31 (TC001.java:42)] ########################### Verify the valid errors on contact page ###########################
+[INFO: 2021-05-22 00:26:31 (TC001.java:43)] #############################################END###############################################
+[INFO: 2021-05-22 00:26:32 (InitializeDriver.java:53)] Driver closed Successfully
