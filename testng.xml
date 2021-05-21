@@ -3,9 +3,9 @@
     <test name="Group of group Test">
         <classes>
             <class name="com.planit.application.tests.TC001" />
-<!--             <class name="com.planit.application.tests.TC002" /> -->
-<!--             <class name="com.planit.application.tests.TC003" /> -->
-<!--             <class name="com.planit.application.tests.TC004" /> -->
+            <class name="com.planit.application.tests.TC002" />
+            <class name="com.planit.application.tests.TC003" />
+            <class name="com.planit.application.tests.TC004" />
         </classes>
     </test>
 </suite>
