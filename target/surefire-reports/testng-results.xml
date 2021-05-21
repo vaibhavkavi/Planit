@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contact]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Submit]]>
+    </line>
+    <line>
+      <![CDATA[Excepected error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+    </line>
+    <line>
+      <![CDATA[Actual error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for forename]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for email]]>
+    </line>
+    <line>
+      <![CDATA[Entered Data for message]]>
+    </line>
+    <line>
+      <![CDATA[No Errors Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Group of group Suite" duration-ms="33181" started-at="2021-05-21T23:03:01 SGT" finished-at="2021-05-21T23:03:34 SGT">
+    <groups>
+    </groups>
+    <test name="Group of group Test" duration-ms="33181" started-at="2021-05-21T23:03:01 SGT" finished-at="2021-05-21T23:03:34 SGT">
+      <class name="com.planit.application.tests.TC001">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC001@3dfc5fb8]" name="beforeClass" is-config="true" duration-ms="2811" started-at="2021-05-21T23:03:01 SGT" finished-at="2021-05-21T23:03:04 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC001@3dfc5fb8]" name="testcase" duration-ms="29201" started-at="2021-05-21T23:03:05 SGT" data-provider="testData" finished-at="2021-05-21T23:03:34 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{forename=Vaibhav, message=this application is nice., email=vaibhav.kavimandan@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Base Url: https://jupiter.cloud.planittesting.com launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contact]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Submit]]>
+            </line>
+            <line>
+              <![CDATA[Excepected error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+            </line>
+            <line>
+              <![CDATA[Actual error list:[Forename is required, Email is required, Message is required, We welcome your feedback - but we won't get it unless you complete the form correctly.]]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for forename]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for email]]>
+            </line>
+            <line>
+              <![CDATA[Entered Data for message]]>
+            </line>
+            <line>
+              <![CDATA[No Errors Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC001@3dfc5fb8]" name="afterClass" is-config="true" duration-ms="343" started-at="2021-05-21T23:03:34 SGT" finished-at="2021-05-21T23:03:34 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.planit.application.tests.TC001 -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+</testng-results>
