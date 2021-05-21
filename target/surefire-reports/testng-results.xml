@@ -167,16 +167,16 @@
       <![CDATA[Clicked on Cart (10)]]>
     </line>
   </reporter-output>
-  <suite name="Group of group Suite" duration-ms="74990" started-at="2021-05-22T00:35:13 SGT" finished-at="2021-05-22T00:36:28 SGT">
+  <suite name="Group of group Suite" duration-ms="86565" started-at="2021-05-22T01:54:06 SGT" finished-at="2021-05-22T01:55:32 SGT">
     <groups>
     </groups>
-    <test name="Group of group Test" duration-ms="74990" started-at="2021-05-22T00:35:13 SGT" finished-at="2021-05-22T00:36:28 SGT">
+    <test name="Group of group Test" duration-ms="86565" started-at="2021-05-22T01:54:06 SGT" finished-at="2021-05-22T01:55:32 SGT">
       <class name="com.planit.application.tests.TC003">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="beforeClass" is-config="true" duration-ms="1547" started-at="2021-05-22T00:36:16 SGT" finished-at="2021-05-22T00:36:17 SGT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="beforeClass" is-config="true" duration-ms="2082" started-at="2021-05-22T01:55:16 SGT" finished-at="2021-05-22T01:55:18 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="testcase" duration-ms="3781" started-at="2021-05-22T00:36:17 SGT" data-provider="testData" finished-at="2021-05-22T00:36:21 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="testcase" duration-ms="4607" started-at="2021-05-22T01:55:19 SGT" data-provider="testData" finished-at="2021-05-22T01:55:23 SGT">
           <params>
             <param index="0">
               <value>
@@ -196,17 +196,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="afterClass" is-config="true" duration-ms="117" started-at="2021-05-22T00:36:21 SGT" finished-at="2021-05-22T00:36:21 SGT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC003@631330c]" name="afterClass" is-config="true" duration-ms="194" started-at="2021-05-22T01:55:23 SGT" finished-at="2021-05-22T01:55:23 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.planit.application.tests.TC003 -->
       <class name="com.planit.application.tests.TC004">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="beforeClass" is-config="true" duration-ms="1581" started-at="2021-05-22T00:36:21 SGT" finished-at="2021-05-22T00:36:23 SGT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="beforeClass" is-config="true" duration-ms="2138" started-at="2021-05-22T01:55:23 SGT" finished-at="2021-05-22T01:55:25 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="testcase" duration-ms="5152" started-at="2021-05-22T00:36:23 SGT" data-provider="testData" finished-at="2021-05-22T00:36:28 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="testcase" duration-ms="6552" started-at="2021-05-22T01:55:26 SGT" data-provider="testData" finished-at="2021-05-22T01:55:32 SGT">
           <params>
             <param index="0">
               <value>
@@ -226,17 +226,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="afterClass" is-config="true" duration-ms="203" started-at="2021-05-22T00:36:28 SGT" finished-at="2021-05-22T00:36:28 SGT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC004@42f93a98]" name="afterClass" is-config="true" duration-ms="279" started-at="2021-05-22T01:55:32 SGT" finished-at="2021-05-22T01:55:32 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.planit.application.tests.TC004 -->
       <class name="com.planit.application.tests.TC001">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="beforeClass" is-config="true" duration-ms="2475" started-at="2021-05-22T00:35:13 SGT" finished-at="2021-05-22T00:35:16 SGT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="beforeClass" is-config="true" duration-ms="3292" started-at="2021-05-22T01:54:06 SGT" finished-at="2021-05-22T01:54:09 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="testcase" duration-ms="28994" started-at="2021-05-22T00:35:17 SGT" data-provider="testData" finished-at="2021-05-22T00:35:46 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="testcase" duration-ms="29964" started-at="2021-05-22T01:54:11 SGT" data-provider="testData" finished-at="2021-05-22T01:54:41 SGT">
           <params>
             <param index="0">
               <value>
@@ -274,17 +274,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="afterClass" is-config="true" duration-ms="217" started-at="2021-05-22T00:35:46 SGT" finished-at="2021-05-22T00:35:46 SGT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC001@7e2d773b]" name="afterClass" is-config="true" duration-ms="262" started-at="2021-05-22T01:54:41 SGT" finished-at="2021-05-22T01:54:41 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.planit.application.tests.TC001 -->
       <class name="com.planit.application.tests.TC002">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="beforeClass" is-config="true" duration-ms="1604" started-at="2021-05-22T00:35:46 SGT" finished-at="2021-05-22T00:35:47 SGT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="beforeClass" is-config="true" duration-ms="2030" started-at="2021-05-22T01:54:41 SGT" finished-at="2021-05-22T01:54:43 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="7760" started-at="2021-05-22T00:35:47 SGT" data-provider="testData" finished-at="2021-05-22T00:35:55 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="5435" started-at="2021-05-22T01:54:44 SGT" data-provider="testData" finished-at="2021-05-22T01:54:49 SGT">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="4750" started-at="2021-05-22T00:35:55 SGT" data-provider="testData" finished-at="2021-05-22T00:36:00 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="5750" started-at="2021-05-22T01:54:49 SGT" data-provider="testData" finished-at="2021-05-22T01:54:55 SGT">
           <params>
             <param index="0">
               <value>
@@ -354,7 +354,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="3195" started-at="2021-05-22T00:36:00 SGT" data-provider="testData" finished-at="2021-05-22T00:36:03 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="14130" started-at="2021-05-22T01:54:55 SGT" data-provider="testData" finished-at="2021-05-22T01:55:09 SGT">
           <params>
             <param index="0">
               <value>
@@ -389,7 +389,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="4886" started-at="2021-05-22T00:36:03 SGT" data-provider="testData" finished-at="2021-05-22T00:36:08 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="4056" started-at="2021-05-22T01:55:09 SGT" data-provider="testData" finished-at="2021-05-22T01:55:13 SGT">
           <params>
             <param index="0">
               <value>
@@ -424,7 +424,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="7453" started-at="2021-05-22T00:36:08 SGT" data-provider="testData" finished-at="2021-05-22T00:36:16 SGT">
+        <test-method status="PASS" signature="testcase(java.util.Map)[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="testcase" duration-ms="3146" started-at="2021-05-22T01:55:13 SGT" data-provider="testData" finished-at="2021-05-22T01:55:16 SGT">
           <params>
             <param index="0">
               <value>
@@ -459,7 +459,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="afterClass" is-config="true" duration-ms="155" started-at="2021-05-22T00:36:16 SGT" finished-at="2021-05-22T00:36:16 SGT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.planit.application.tests.TC002@2353b3e6]" name="afterClass" is-config="true" duration-ms="226" started-at="2021-05-22T01:55:16 SGT" finished-at="2021-05-22T01:55:16 SGT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
