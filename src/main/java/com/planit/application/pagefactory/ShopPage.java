@@ -21,10 +21,7 @@ public class ShopPage extends BaseUtil{
 	final static Logger logger = Logger.getLogger("rootLogger");
 	
 	// list all elements on Shop Page
-	
-	// list of header Menu
 
-	//@FindBy(xpath="//*[contains(@class, 'products')]/ul")
 	@FindBy(xpath = "//*[contains(@class, 'products ng-scope')]/ul/li")
 	private List<WebElement> Items;
 	@FindBy(id="nav-cart")
@@ -39,7 +36,7 @@ public class ShopPage extends BaseUtil{
 	}
 	
 
-	public Map<String,Float> buyItem(Map<String,Integer> cartData) {
+	public Map<String,Float> buyItem(Map<String,Integer> cartData) throws InterruptedException {
 	int initialCartCount = Integer.valueOf(cartItems.getText());
 	int actualCartCount = Integer.valueOf(cartItems.getText());
 	Map<String,Float> productPriceMap= new LinkedHashMap<String,Float>();
@@ -57,6 +54,9 @@ public class ShopPage extends BaseUtil{
 		}
 
 	}
+	// Wait for 2 sec to ensure, Cart Link has properly update. slowness issue observed on Edge so adding below wait condition.
+	Thread.sleep(2000);
+	
 		if((initialCartCount + actualCartCount) ==Integer.valueOf(cartItems.getText())) {
 			logger.info("Added Items are matching in the cart count link");
 		} else {

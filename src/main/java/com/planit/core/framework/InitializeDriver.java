@@ -5,6 +5,8 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -31,10 +33,20 @@ public class InitializeDriver {
                     driver.manage().deleteAllCookies();
                     logger.info("Chrome browser Launched Successfully");
                     break;
-                case "firefox":
-
+                case "edge":
+                	 System.setProperty("webdriver.edge.driver","drivers/msedgedriver.exe");
+                	 driver = new EdgeDriver();
+                	 driver.manage().timeouts().implicitlyWait(Long.valueOf(Config.getProperty("IMPLICIT_WAIT").trim()), TimeUnit.SECONDS);
+                     driver.manage().window().maximize();
+                     logger.info("Edge browser Launched Successfully");
                     break;
-
+                case "firefox":
+               	 System.setProperty("webdriver.gecko.driver","drivers/geckodriver.exe");
+               	  	driver = new FirefoxDriver();
+               	  	driver.manage().timeouts().implicitlyWait(Long.valueOf(Config.getProperty("IMPLICIT_WAIT").trim()), TimeUnit.SECONDS);
+                    driver.manage().window().maximize();
+                    logger.info("Firefox browser Launched Successfully");
+                   break;
                 default:
                     logger.error("please check the browser name in config file and retry");
             }
