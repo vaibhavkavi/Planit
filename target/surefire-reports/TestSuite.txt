@@ -1,4 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 97.825 s - in TestSuite
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 62.363 s <<< FAILURE! - in TestSuite
+com.planit.application.tests.TC001.testcase  Time elapsed: 10.289 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC001.testcase(TC001.java:35)
+
+com.planit.application.tests.TC002.testcase  Time elapsed: 7.767 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC002.testcase(TC002.java:37)
+
+com.planit.application.tests.TC002.testcase  Time elapsed: 5.236 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC002.testcase(TC002.java:37)
+
+com.planit.application.tests.TC002.testcase  Time elapsed: 5.199 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC002.testcase(TC002.java:37)
+
+com.planit.application.tests.TC002.testcase  Time elapsed: 5.232 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC002.testcase(TC002.java:37)
+
+com.planit.application.tests.TC002.testcase  Time elapsed: 5.244 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC002.testcase(TC002.java:37)
+
+com.planit.application.tests.TC003.testcase  Time elapsed: 7.838 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC003.testcase(TC003.java:43)
+
+com.planit.application.tests.TC004.testcase  Time elapsed: 7.988 s  <<< FAILURE!
+java.lang.AssertionError: Error Occured while clicking on 
+	at com.planit.application.tests.TC004.testcase(TC004.java:43)
+

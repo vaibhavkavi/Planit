@@ -23,11 +23,7 @@ public class InitializeDriver {
                 case "chrome":
                     // setting the chrome driver  exe location
                     System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
-                    ChromeOptions chromeOptions = new ChromeOptions();
-                    if(Config.getProperty("EXEXUTION_MODE").toLowerCase().trim().equals("headless")) {
-                        chromeOptions.addArguments("--headless");
-                    }
-                    driver = new ChromeDriver(chromeOptions);
+                    driver = new ChromeDriver();
                     driver.manage().timeouts().implicitlyWait(Long.valueOf(Config.getProperty("IMPLICIT_WAIT").trim()), TimeUnit.SECONDS);
                     driver.manage().window().maximize();
                     driver.manage().deleteAllCookies();

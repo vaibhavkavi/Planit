@@ -10,6 +10,27 @@
           <include name="afterClass"/>
         </methods>
       </class> <!-- com.planit.application.tests.TC004 -->
+      <class name="com.planit.application.tests.TC003">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testcase" invocation-numbers="0"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.planit.application.tests.TC003 -->
+      <class name="com.planit.application.tests.TC002">
+        <methods>
+          <include name="testcase" invocation-numbers="0 1 2 3 4"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.planit.application.tests.TC002 -->
+      <class name="com.planit.application.tests.TC001">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="testcase" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.planit.application.tests.TC001 -->
     </classes>
   </test> <!-- Group of group Test(failed) -->
 </suite> <!-- Failed suite [Group of group Suite] -->
