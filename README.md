@@ -19,7 +19,7 @@ first of all you need to build the solution. please do below steps for project c
 7) Run "mvn test" command
 8) It will start executing all the test cases
 9) To make changes in test execution, use testng.xml to modify the execution classes.
-10) If you want to edit the test data, use testdata.xlsx for the same. it is in root folder
+10) If you want to edit the test data, use testdata.xlsx for the same. each test case has its own sheet. it is in root folder. framework supports multiple data iterations. it means we can run same test case multiple times using different datasets. (TC003 is an example)
 11) You can also setup the execution in headless mode. change the setting in config.properties for the same
 
 please feel free to contact me if you are facing any dificulty while executing or for code walkthrough.
